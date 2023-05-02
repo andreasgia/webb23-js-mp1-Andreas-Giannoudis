@@ -30,6 +30,7 @@ const numberArr = [0,1,2,3,4,5,6,7,8,9];
 const reverseArr = [9,8,7,6,5,4,3,2,1,0];
 const numbers = ['ett', 'två', 'tre', 'fyra', 'fem', 'sex', 'sju', 'åtta', 'nio', 'tio'];
 
+//create the divs
 const leftDiv = document.createElement('div');
 div.append(leftDiv);
 leftDiv.style.height = "350px";
@@ -38,14 +39,12 @@ leftDiv.style.width = "60px";
 leftDiv.style.background = "hsl(251, 69%, 75%)";
 
 
-
 const centerDiv = document.createElement('div');
 div.append(centerDiv);
 centerDiv.style.height = "350px";
 centerDiv.style.margin = "30px";
 centerDiv.style.width = "60px";
 centerDiv.style.background = "hsl(251, 69%, 75%)";
-
 
 
 const rightDiv = document.createElement('div');
@@ -86,7 +85,7 @@ for (let i=0; i<numberArr.length; i++)
 
 for (let i=0; i<reverseArr.length; i++) 
 {
-    //code for the first array
+    //code for the second array
     const p2 = document.createElement('p');
     centerDiv.append(p2);
     p2.innerText = `${reverseArr[i]}`;
@@ -112,7 +111,7 @@ for (let i=0; i<reverseArr.length; i++)
 
 for (let i=0; i<numbers.length; i++) 
 {
-    //code for the first array
+    //code for the third array
     const p3 = document.createElement('p');
     rightDiv.append(p3);
     p3.innerText = `${numbers[i]}`;
